@@ -35,44 +35,58 @@ header h2 {
     align-items: center;
     justify-content: space-between;
     padding: 0px 0px 40px 40px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .Home-up-about {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 600px;
+    max-width: 650px;
     padding: 40px;
-    gap: 20px;
+    gap: 10px;
     /* margin-left: 130px; */
+    margin-top: 100px;
 }
 
-.Home-up-about h1{
+.name-text-top {
     /* margin-top: 100px; */
     font-size: 70px;
-    line-height: 70px;
+    line-height: 65px;
 }
-.Home-up-about p{
+
+.main-text-top {
+    font-size: 40px;
+}
+
+.Home-up-about p {
     font-size: 18px;
 }
 
-.Home-about-btns{
-    /* margin-top: 20px; */
+.Home-about-btns {
+    margin-top: 20px;
     display: flex;
     gap: 20px;
 }
 
-.Projects-btn, .LinkedIn-btn{
+.Projects-btn {
     height: 40px;
-    width: 100px;
+    width: 130px;
     padding: 10px;
     border: none;
     border-radius: 10px;
     background-color: #FDC435;
 }
 
+.LinkedIn-btn {
+    border: 2px solid black;
+    background-color: white;
+    height: 40px;
+    width: 130px;
+    padding: 10px;
+    border-radius: 10px;
+}
 
 .hero {
     position: relative;
@@ -81,18 +95,19 @@ header h2 {
 .back-img-home-up {
     z-index: 1;
     /* border: 1px solid black; */
-    width: 600px;
-    height: 500px;
+    width: 650px;
+    height: 600;
 
 }
 
 .my-img-home-up {
     /* border: 1px solid black; */
     position: absolute;
-   top: 81px;
-    left: 258px;
-    width: 250px;
-    height: 420px;
+    top: 81px;
+    left: 274px;
+    width: 300px;
+    height: 490px;
     border-radius: 0px 0px 230px 251px;
     z-index: 2;
 }
+
