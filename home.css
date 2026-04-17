@@ -1,24 +1,30 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px 20px 20px;
-    /* position: relative;
-    z-index: 999; */
+    /* padding: 10px 20px 20px 20px; */
+    position: absolute;
+    z-index: 999;
     border: 1px solid black;
+    width: 100%;
 }
 
-.header-menus{
+header h2 {
+    padding: 10px 20px 20px 20px;
+}
+
+.header-menus {
     display: flex;
     gap: 30px;
+    padding: 10px 20px 20px 20px;
 }
 
-.header-menus a{
+.header-menus a {
     text-decoration: none;
     color: black;
 }
@@ -33,34 +39,40 @@ header{
 }
 
 .Home-up-about {
-    width: 45%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    margin-left: 200px;
 }
 
+.Home-up-about h1{
+    font-size: 50px;
+}
+.Home-up-about p{
+    font-size: 18px;
+}
 .hero {
     position: relative;
-    width: 50%;
-    height: 450px;
-    background: #f4b52c;
-    border-radius: 0 0 200px 200px;
-    overflow: hidden;
 }
 
-.hero::before {
-    content: "";
-    position: absolute;
-    left: -150px;
-    top: 0;
-    width: 350px;
-    height: 100%;
-    background: #e5e5e5;
-    border-radius: 50%;
+.back-img-home-up {
     z-index: 1;
+    /* border: 1px solid black; */
+    width: 600px;
+    height: 500px;
+
 }
 
-.hero img {
+.my-img-home-up {
+    /* border: 1px solid black; */
     position: absolute;
-    bottom: 0;
-    left: 100px;
+   top: 81px;
+    left: 258px;
+    width: 250px;
     height: 420px;
+    border-radius: 0px 0px 230px 251px;
     z-index: 2;
 }
