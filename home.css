@@ -111,3 +111,9 @@ header h2 {
     z-index: 2;
 }
 
+.Home-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
