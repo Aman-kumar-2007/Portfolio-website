@@ -111,9 +111,51 @@ header h2 {
     z-index: 2;
 }
 
+hr{
+    margin-left: 40px;
+    margin-right: 40px;
+}
 .Home-about{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 40px;
+    margin-top: 50px;
+}
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 700px;
+}
+
+.about-img-container{
+    margin-right: 50px;
+}
+
+.image-about{
+    height: 420px;
+    width: 420px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.about-me-text{
+    font-size: 70px;
+}
+
+.about-text p{
+    font-size: 20px;
+}
+
+.resume-btn{
+    height: 40px;
+    width: 130px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FDC435;
 }
