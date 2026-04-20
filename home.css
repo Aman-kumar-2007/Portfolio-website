@@ -164,14 +164,27 @@ hr{
 
 .skills-section{
     padding: 40px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
 }
 
 .skills-section h1{
     font-size: 70px;
 }
+
+.skills-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border: 1px solid black;
+
+}
 .skill-card{
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
