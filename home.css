@@ -179,19 +179,24 @@ hr{
 .skills-list{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    border: 1px solid black;
-
+    padding-left: 45px;
 }
 .skill-card{
     width: 100%;
     max-width: 250px;
     border: 1px solid black;
+    border-radius: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
     gap: 10px;
+}
+
+.skill-card:hover{
+    cursor: pointer;
+    transform: scale(1.03);
 }
 
 .html-img{
