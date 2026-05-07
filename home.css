@@ -180,6 +180,7 @@ hr{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     padding-left: 45px;
+    grid-gap: 20px;
 }
 .skill-card{
     width: 100%;
@@ -203,9 +204,6 @@ hr{
     height: 120px;
     width: 120px;
 }
-
-
-
 
 
 .project-1{
