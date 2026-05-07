@@ -232,3 +232,12 @@ hr{
     border-radius: 25%;
     padding: 7px;
 }
+
+.project-1{
+    display: flex;
+    color: #cbd5e1;
+}
+.project-note-app-img{
+    width: 500px;
+
+}
