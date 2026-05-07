@@ -54,15 +54,18 @@ header h2 {
 
 .name-text-top {
     /* margin-top: 100px; */
+    color: #ffffff;;
     font-size: 70px;
     line-height: 65px;
 }
 
 .main-text-top {
+    color: #06b6d4;
     font-size: 40px;
 }
 
 .Home-up-about p {
+    color: #cbd5e1;
     font-size: 18px;
 }
 
@@ -78,16 +81,18 @@ header h2 {
     padding: 10px;
     border: none;
     border-radius: 10px;
-    background-color: #FDC435;
+    background: #06b6d4;
+    color: #ffffff;
 }
 
 .Projects-btn:hover{
     cursor: pointer;
     transform: scale(1.03);
+    background: #0891b2;
 }
 
 .LinkedIn-btn {
-    border: 2px solid black;
+    border: 3px solid #06b6d4;
     background-color: white;
     height: 40px;
     width: 130px;
@@ -155,11 +160,12 @@ hr{
     border-radius: 50%;
 }
 
-.about-me-text{
+.about-text h1{
     font-size: 70px;
 }
 
 .about-text p{
+    color: #cbd5e1;
     font-size: 20px;
 }
 
@@ -170,7 +176,8 @@ hr{
     margin-top: 20px;
     border: none;
     border-radius: 10px;
-    background-color: #FDC435;
+    background: #06b6d4;
+    color: #ffffff;
     font-weight: bold;
 }
 
