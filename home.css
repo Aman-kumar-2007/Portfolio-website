@@ -130,6 +130,8 @@ header h2 {
 hr{
     margin-left: 40px;
     margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .Home-about{
@@ -233,11 +235,20 @@ hr{
     padding: 7px;
 }
 
+.project-section{
+    padding: 40px;
+}
 .project-1{
     display: flex;
     color: #cbd5e1;
+    justify-content: space-between;
 }
 .project-note-app-img{
     width: 500px;
+    border: 2px solid #06b6d4;
+    border-radius: 20px;
+}
 
+.project-1-about{
+    width: 850px;
 }
