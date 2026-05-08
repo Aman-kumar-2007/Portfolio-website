@@ -254,6 +254,7 @@ hr{
     width: 850px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 30px;
 }
 
@@ -282,3 +283,4 @@ hr{
     align-items: center;
     font-weight: bolder;
 }
+
