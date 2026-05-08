@@ -238,10 +238,11 @@ hr{
 .project-section{
     padding: 40px;
 }
-.project-1{
+.project{
     display: flex;
     color: #cbd5e1;
     justify-content: space-between;
+    margin-bottom: 60px;
 }
 .project-note-app-img{
     width: 500px;
@@ -249,7 +250,7 @@ hr{
     border-radius: 20px;
 }
 
-.project-1-about{
+.project-about{
     width: 850px;
     display: flex;
     flex-direction: column;
