@@ -270,3 +270,14 @@ hr{
     cursor: pointer;
     background-color: #0891b2;
 }
+
+.project-techStack{
+    background-color: #0f172a;
+    height: 40px;
+    border: 1px solid #06b6d4;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
